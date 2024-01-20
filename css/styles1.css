@@ -1,0 +1,230 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  /* color: rgb(210, 242, 255); */
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* HEADINGS */
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+/* CONTAINERS */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+/* SECTIONS */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* TITLE-SECTION */
+
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+
+/* Title-image */
+#iphone-image {
+  width: 60%;
+  right: 10px;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+.custom-iphone {
+  height: 100px;
+  position: relative;
+}
+
+@media (max-width: 1028px) {
+  .custom-iphone {
+    position: static;
+    height: 500px;
+  }
+  #iphone-image {
+    position: static;
+
+    transform: rotate(0deg);
+  }
+  #title {
+    text-align: center;
+    /* position:static; */
+    padding: 150px 10px;
+  }
+
+  /* #section {
+    position: absolute;
+  } */
+
+  #features {
+    position: static;
+  }
+}
+
+/* @media (max-width: 1028px) {
+  .iphone-image {
+    position: absolute;
+
+    transform: rotate(0);
+  }
+  .custom-iphone {
+    position: relative;
+  }
+
+  #title {
+    text-align: center;
+  }
+  #section {
+    position: absolute;
+  }
+} */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.icon {
+  color: #ef8172;
+
+  padding-bottom: 1rem;
+}
+
+
+/* features section */
+.feature-box {
+  padding: 5%;
+}
+
+.feature-title {
+  padding-top: 100px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+
+/* <!-- Testimonials --> */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+
+  padding: 2%;
+}
+
+.press-logo {
+  width: 15%;
+  padding: 20px 20px 15px;
+}
+
+.carousel-item {
+}
+
+
+
+/* PRICING-SECTION */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+
+/* call to action */
+#cta {
+  font-style: oblique;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  height: 300px;
+}
+
+.cta-heading {
+  font-size: 3.5 rem;
+  /* line-height: 1.5; */
+}
+
+.footer-icon {
+  margin: 20px 10px;
+}
